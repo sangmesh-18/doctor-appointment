@@ -57,8 +57,11 @@ A modern full-stack web application built using the MERN stack, integrated with 
 - **Postman** – API testing tool
 
 ### 🔧 Setup Backend
+
 cd backend
+
 npm install
+
 --- npm run start 
 
 ### Create a .env file and add:
@@ -70,23 +73,36 @@ MONGO_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/doctor-app
 JWT_SECRET=your_jwt_secret_key
 
 # ☁️ Cloudinary Config
+
 CLOUDINARY_CLOUD_NAME=your_cloud_name
+
 CLOUDINARY_API_KEY=your_api_key
+
 CLOUDINARY_API_SECRET=your_api_secret
 
+
 # 💳 Razorpay Config
+
 RAZORPAY_KEY_ID=your_razorpay_key_id
+
 RAZORPAY_KEY_SECRET=your_razorpay_key_secret
 
 
 ### 🔧 Setup FrontEnd
+
 cd frontend
+
 npm install
+
 npm run dev
 
+
 ### 🔧 Setup Admin
+
 cd Admin
+
 npm install
+
 npm run dev
 
 
